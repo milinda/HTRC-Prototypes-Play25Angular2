@@ -1,0 +1,74 @@
+logs
+target
+.idea
+/.classpath
+/.project
+/.settings
+/RUNNING_PID
+node_modules
+npm-debug.log
+
+### Scala ###
+*.class
+*.log
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+# ENSIME specific
+.ensime_cache/
+.ensime
+
+
+### PlayFramework ###
+# Ignore Play! working directory #
+bin/
+/db
+.eclipse
+/lib/
+/logs/
+/modules
+/project/target
+/project/project
+/target
+tmp/
+test-result
+server.pid
+*.eml
+/dist/
+
+
+### Typings ###
+## Ignore downloaded typings
+typings
+
+
+### Java ###
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# End of https://www.gitignore.io/api/java,scala,playframework,typings
